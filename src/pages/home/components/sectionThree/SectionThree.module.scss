@@ -1,0 +1,32 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 40px;
+    .card{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20%;
+        gap: 8px;
+        img{
+            width: 100%;
+        }
+        .span{
+            width: 100%;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            .met{
+                text-decoration: line-through;
+                color: rgb(205, 177, 18);
+
+            }
+        }
+    }
+}

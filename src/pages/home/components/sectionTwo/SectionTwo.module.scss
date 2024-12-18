@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    .card{
+        width: 30%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-size: 100%;
+        background-position: center;
+        transition: .3s;
+        -webkit-box-shadow: inset 10px 10px 5px 200px rgba(0,0,0,0.58);
+-moz-box-shadow: inset 10px 10px 5px 200px rgba(0,0,0,0.58);
+box-shadow: inset 10px 10px 5px 200px rgba(0,0,0,0.58);
+        p{
+            color: white;
+            font-weight: 650;
+            font-size: 34px;
+            margin-bottom: 20px;
+        }
+        &:hover{
+            background-size: 110%;
+            background-position: center;
+            transition: .3s;
+        }
+    }
+    .men{
+        background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/items1.jpg);
+    }
+    .women{
+        background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/items2.jpg);
+    }
+    .baby{
+        background-image: url(https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/items3.jpg);
+    }
+}

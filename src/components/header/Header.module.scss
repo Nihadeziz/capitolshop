@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    .bottomContainer{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 0px;
+        align-items: center;
+        .iconbox{
+            display: flex;
+            gap: 10px;
+            i{
+                font-size: 30px;
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+        .navbar{
+            nav{
+                ul{
+                    display: flex;
+                    gap: 25px;
+                    li{
+                        list-style: none;
+                        a{
+                            text-decoration: none;
+                            color: black;
+                            &:hover{
+                                color: red;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+   .upContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.464);
+    .faq{
+        display: flex;
+        gap: 25px;
+        p{
+            font-size:  14px;
+        }
+    }
+    .my{
+        display: flex;
+        gap: 25px;
+        .wish{
+            display: flex;
+            gap: 25px;
+            p{
+                font-size:   14px;
+            }
+        }
+        .contact{
+            display: flex;
+            gap: 15px;
+            i{
+                font-size: 14px;
+            }
+        }
+    }
+   }
+}
